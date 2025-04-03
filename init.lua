@@ -168,6 +168,7 @@ vim.opt.autoindent = true
 vim.opt.hlsearch = true
 vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
 vim.keymap.set('i', 'jk', '<Esc>')
+vim.keymap.set('i', 'jj', '<Esc>')
 vim.keymap.set({ 'n', 'o', 'v' }, 'L', '$')
 vim.keymap.set({ 'n', 'o', 'v' }, 'H', '^')
 
